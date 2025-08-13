@@ -18,7 +18,7 @@ services:
         VITE_API_URL: ${VITE_API_URL}   # << ดึงจาก .env ภายนอก
     container_name: 88-nuxt-frontend
     env_file:
-      - ./frontend/.env                # ใช้ตอน runtime
+      - ./frontend/.env                # ใช้ตอน runtime k
     ports:
       - "3088:3000"
     restart: unless-stopped
